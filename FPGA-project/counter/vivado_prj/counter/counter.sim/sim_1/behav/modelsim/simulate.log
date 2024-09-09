@@ -1,0 +1,59 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_counter_simulate.do}
+# vsim -do "do {tb_counter_simulate.do}" -l simulate.log 
+# Start time: 13:44:47 on Jan 25,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_counter(fast)
+# Loading work.counter(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# @time ，   0ns : out=0
+# @time ， 520ns : out=1
+add wave -position insertpoint sim:/tb_counter/conuter_inst/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb_counter(fast)
+# Loading work.counter(fast)
+# Loading work.glbl(fast)
+run
+# @time ，   0ns : out=0
+# @time ， 520ns : out=1
+# @time ，1020ns : out=0
+# @time ，1520ns : out=1
+# @time ，2020ns : out=0
+# @time ，2520ns : out=1
+# @time ，3020ns : out=0
+# @time ，3520ns : out=1
+# @time ，4020ns : out=0
+# @time ，4520ns : out=1
+# @time ，5020ns : out=0
+# @time ，5520ns : out=1
+# @time ，6020ns : out=0
+# @time ，6520ns : out=1
+# @time ，7020ns : out=0
+# @time ，7520ns : out=1
+# @time ，8020ns : out=0
+# @time ，8520ns : out=1
+# @time ，9020ns : out=0
+# @time ，9520ns : out=1
+# End time: 13:47:29 on Jan 25,2024, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 0

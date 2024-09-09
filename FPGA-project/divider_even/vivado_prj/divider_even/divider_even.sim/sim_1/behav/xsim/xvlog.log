@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA-project/divider_even/vivado_prj/divider_even/divider_even.srcs/sources_1/new/divider_even.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_even
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA-project/divider_even/vivado_prj/divider_even/divider_even.srcs/sim_1/new/tb_divider_even.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_divider_even
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA-project/divider_even/vivado_prj/divider_even/divider_even.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

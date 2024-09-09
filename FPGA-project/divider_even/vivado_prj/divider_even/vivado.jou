@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 30 21:29:48 2024
+# Process ID: 2992
+# Current directory: E:/FPGA-project/divider_even/vivado_prj/divider_even
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1648 E:\FPGA-project\divider_even\vivado_prj\divider_even\divider_even.xpr
+# Log file: E:/FPGA-project/divider_even/vivado_prj/divider_even/vivado.log
+# Journal file: E:/FPGA-project/divider_even/vivado_prj/divider_even\vivado.jou
+# Running On: LAPTOP-PK5KEI64, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA-project/divider_even/vivado_prj/divider_even/divider_even.xpr
+update_compile_order -fileset sources_1
+set_property target_simulator XSim [current_project]
+launch_simulation
+source tb_divider_even.tcl
+close_sim

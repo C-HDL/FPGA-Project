@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 23 17:59:26 2024
+# Process ID: 23432
+# Current directory: E:/FPGA-project/flip_flop/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16680 E:\FPGA-project\flip_flop\vivado_prj\flip_flop.xpr
+# Log file: E:/FPGA-project/flip_flop/vivado_prj/vivado.log
+# Journal file: E:/FPGA-project/flip_flop/vivado_prj\vivado.jou
+# Running On: LAPTOP-PK5KEI64, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA-project/flip_flop/vivado_prj/flip_flop.xpr
+update_compile_order -fileset sources_1
+file mkdir E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sim_1/new/tb_flip_flop.v w ]
+add_files -fileset sim_1 E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sim_1/new/tb_flip_flop.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_flip_flop.tcl
+add_bp {E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sources_1/new/flip_flop.v} 9
+remove_bps -file {E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sources_1/new/flip_flop.v} -line 9
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+set_property target_simulator ModelSim [current_project]
+close_sim
+launch_simulation
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property target_simulator XSim [current_project]
+launch_simulation
+source tb_flip_flop.tcl
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+synth_design -top flip_flop -part xc7a35tfgg484-2 -lint 
+close_sim
+launch_simulation
+source tb_flip_flop.tcl
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+create_project blocking E:/FPGA-project/blocking/vivado_prj/blocking -part xc7a35tfgg484-2
+file mkdir E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sources_1/new
+close [ open E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sources_1/new/blocking.v w ]
+add_files E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sources_1/new/blocking.v
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+file mkdir E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sim_1/new/tb_blocking.v w ]
+add_files -fileset sim_1 E:/FPGA-project/blocking/vivado_prj/blocking/blocking.srcs/sim_1/new/tb_blocking.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_blocking.tcl
+current_wave_config {Untitled 9}
+add_wave {{/tb_blocking/blocking_inst/in_reg}} 
+restart
+run 10 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+close_sim
+launch_simulation
+source tb_blocking.tcl
+current_wave_config {Untitled 10}
+add_wave {{/tb_blocking/blocking_inst/in_reg}} 
+restart
+run 10 us

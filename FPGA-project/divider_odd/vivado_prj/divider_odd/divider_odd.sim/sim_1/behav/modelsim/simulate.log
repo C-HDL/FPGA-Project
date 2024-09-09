@@ -1,0 +1,38 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_divider_odd_simulate.do}
+# vsim -do "do {tb_divider_odd_simulate.do}" -l simulate.log 
+# Start time: 21:53:56 on Jan 30,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.tb_divider_odd(fast)
+# Loading work.divider_odd(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/tb_divider_odd/divider_odd_inst/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb_divider_odd(fast)
+# Loading work.divider_odd(fast)
+# Loading work.glbl(fast)
+run
+# Causality operation skipped due to absence of debug database file
+# End time: 21:58:32 on Jan 30,2024, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 1

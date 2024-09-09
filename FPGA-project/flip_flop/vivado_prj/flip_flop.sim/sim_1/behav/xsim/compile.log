@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sources_1/new/flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flip_flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA-project/flip_flop/vivado_prj/flip_flop.srcs/sim_1/new/tb_flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_flip_flop

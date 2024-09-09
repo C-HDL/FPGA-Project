@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Aug  2 16:42:02 2023
+# Process ID: 8628
+# Current directory: E:/FPGA/decorder/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22072 E:\FPGA\decorder\vivado_prj\project_1.xpr
+# Log file: E:/FPGA/decorder/vivado_prj/vivado.log
+# Journal file: E:/FPGA/decorder/vivado_prj\vivado.jou
+# Running On: LAPTOP-PK5KEI64, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/decorder/vivado_prj/project_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
